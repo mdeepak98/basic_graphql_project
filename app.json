@@ -1,0 +1,18 @@
+{
+  "name": "basic_graphql_project",
+  "description": "A basic graphql project on books",
+  "keywords": [
+    "graphql",
+    "API",
+    "books"
+  ],
+  "repository": "https://github.com/mdeepak98/basic_graphql_project.git",
+  "success_url": "/playground",
+  "image": "heroku/nodejs",
+  
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ],
+}
