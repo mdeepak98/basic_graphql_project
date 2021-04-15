@@ -1,0 +1,29 @@
+{
+  "name": "basic_graphql_project",
+  "version": "1.0.0",
+  "description": "A basic nodejs graphql project",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdeepak98/basic_graphql_project.git"
+  },
+  "keywords": [
+    "graphql",
+    "nodejs",
+    "api"
+  ],
+  "author": "mdeepakumar98@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.22.2",
+    "graphql": "^15.5.0"
+  }
+}
